@@ -1,10 +1,8 @@
-# ENSF 533 Group 17 — Performance Evaluation
+# Performance Evaluation
 
 **Performance Evaluation of a Real-Time Multi-Radar Aerial Tracking Pipeline**
 
-This repository contains the instrumentation code and raw measurement data used for the ENSF 533 final performance evaluation. It is a curated excerpt of a larger capstone project developed at the University of Calgary.
-
-> **Note:** The full system — including radar protocol integration, hardware configuration, and the React frontend — is maintained in a private repository under capstone confidentiality requirements. This repo exposes only the components directly relevant to the performance evaluation: the instrumentation services, the load generator, the instrumented pipeline actors, and the collected CSV data.
+This repository contains the components directly relevant to the performance evaluation of our capstone project: the instrumentation services, the load generator, the instrumented pipeline actors, and the collected CSV data.
 
 ---
 
@@ -142,13 +140,6 @@ Timestamp, SuspectedPauseMs, Gen0Collections, Gen1Collections, Gen2Collections
 ```
 Timestamp, CpuPercent, WorkingSetMB, GcAllocatedMB, ThreadCount
 ```
-
----
-
-## Related
-
-- Full report: `ENSF533_FinalReport.pdf` (available on request / course submission)
-- Reference: M. Jevtić, D. Vujović, and M. Toković, "Real-Time Implementation of a Target Tracking System for Air Surveillance Radar Applications," TELFOR 2013.
 
 ---
 
